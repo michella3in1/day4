@@ -1,0 +1,230 @@
+.myProject-form {
+    min-height: 82vh;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.myProject-form .form-container {
+    width: 500px;
+}
+
+.myProject-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.myProject-form form label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.myProject-form form input,
+textarea,
+select {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+}
+
+.myProject-form form textarea {
+    height: 250px;
+}
+
+.myProject-form form .input-project-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.myProject-form form .input-project-image-group label p {
+    font-size: 15px;
+}
+
+.input-project-image-group a img {
+    width: 75px;
+}
+
+.myProject-form form .input-project-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myProject-form form .button-group {
+    text-align: right;
+}
+
+.myProject-form form button {
+    margin-top: 50px;
+    padding: 8px 15px;
+    font-size: 17px;
+    background: #ffffff;
+    border-radius: 30px;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* --------- */
+
+.myProject hr {
+    border: 1px solid #dbdbdb;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.project-detail-container {
+    width: 80%;
+    margin: 40px 0;
+}
+
+.project-detail-container img {
+    width: 100%;
+}
+
+.project-detail-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.project-detail-container .author {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.project-detail-container p {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+/* Project List */
+
+.project-list {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.project-list-item {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    display: flex;
+}
+.project-image {
+    flex: 1;
+}
+.project-image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.project-content {
+    padding-left: 20px;
+    flex: 2;
+}
+.btn-group {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.btn-edit {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #dbdbdb;
+}
+.btn-post {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: white;
+}
+.project-list h1 a {
+    text-decoration: none;
+    color: white;
+}
+.detail-project-content{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+.project-list-item p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+/* Project detail */
+.project-detail{
+    display: flex;
+    justify-content: center;
+}
+.project-detail-container{
+    width: 80%;
+    margin: 40px 0;
+}
+.project-detail-container img{
+    width: 100%;
+}
+.project-detail-container h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+.project-detail-container .author{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.project-detail-container p {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+
+

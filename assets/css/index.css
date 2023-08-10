@@ -1,0 +1,141 @@
+.division {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(79, 79, 79);
+    height: 69vh;
+    width: 170vh;
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.first-container {
+    flex: 70%;
+    padding-left: 90px;
+    text-align: justify;
+}
+
+.first-container h1 {
+    padding-top: 75px;
+    font-size: 32px;
+}
+
+.first-container p {
+    padding-top: 10px;
+    padding-right: 150px;
+    font-size: 16px;
+}
+
+#contdown {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-btn {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 15px;
+    background: rgb(50, 50, 50);
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(50, 50, 50);
+    transition: 0.15s;
+}
+
+.contact-btn:hover {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(77, 230, 6);
+    background: none;
+    transition: 0.15s;
+}
+
+.download {
+    width: 175px;
+    height: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 0px rgb(50, 50, 50);
+    transition: 0.25s;
+}
+
+.download a h3 {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(50, 50, 50);
+}
+
+.fa-download {
+    display: inline-block;
+    margin-left: 20px;
+    color:rgb(50, 50, 50);
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.container > a {
+    text-decoration: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 15px;
+    border: 0px solid rgb(50, 50, 50);
+    border-radius: 100%;
+    background: rgb(50, 50, 50);
+    box-shadow: 0px 0px 1px rgb(50, 50, 50);
+    transition: 0.25s;
+}
+
+.container > a:hover {
+    transition: 0.25s;
+    color: rgb(50, 50, 50);
+    border: 0px solid white;
+    background: white;
+    box-shadow: 0px 0px 7px rgb(50, 50, 50);
+}
+
+.second-container {
+    flex: 30%;
+    padding-right: 90px;
+    position: relative;
+}
+
+.self-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 400px;
+    border: 0px solid white;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgb(50, 50, 50);
+}
+
+.self-container img {
+    width: 400px;
+    height: 500px;
+    /* max-width: 100%;
+    max-height: 100%; */
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+}
